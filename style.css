@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.heading{
+    background-color: black;
+    color:white;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.main_container{
+    margin-top: 10px;
+    display: inline-flex;
+    height: 500px;
+    width: 100%;
+}
+.game_area{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    padding-top: 100px;
+}
+.boxes{
+    border: 2px purple solid;
+    font-size: 70px;
+    padding-top: 15px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.boxes:hover{
+    background-color: rgb(204, 226, 235);
+}
+.text_board{
+    width: 50%;
+}
+.win{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.dance{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dance img{
+    /* width: 0px; */
+    visibility: hidden;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    width: 200px;
+}
+
+.rem_tb{
+    border-top: none;
+}
+.rem_lb{
+    border-left: none;
+}
+.rem_rb{
+    border-right: none;
+}
+.rem_bb{
+    border-bottom: none;
+}
